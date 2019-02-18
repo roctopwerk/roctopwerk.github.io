@@ -1,0 +1,314 @@
+
+/* DOCTYPE CSS */
+
+/*Dit is de stylesheet die is gebruikt als standaard voor de andere pagina's */
+
+/*De body */
+
+body{
+    background-image: url(../Media/pictures/background-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/* Een algemene achtergrond class voor een row */
+
+.achtergrond{
+    background: #eaeaea;
+    width: 100%;
+    min-height: 350px;
+    height: auto;
+    border: solid 2px yellow;
+}
+
+/* De welkom tekst */
+
+.text{
+    width: 100%;
+    height: auto;
+    background: #eaeaea;
+    margin-top: 10px;
+    padding:5px;
+    font-size: 20px;
+    border: solid 2px yellow;
+}
+
+/* Div om .fotovanmij heen */
+
+.foto{
+    width: 100%;
+    height: auto;
+    background: #333;
+    margin-top: 10px;
+    border: solid 2px yellow;
+}
+
+/* opmaak van de foto van mijn gezicht */
+
+.fotovanmij{
+    width: 100%;
+    height: 100%;
+}
+
+/* algemene row */
+
+.row{
+    margin-top: 50px;
+}
+
+/* Eerste row van de pagina */
+
+.row1{
+    margin-top:110px;
+}
+
+/* Navbar */
+
+nav{
+    border-bottom: solid 2px yellow;
+}
+
+/* Staat voor footer moet beneden blijven */
+
+.yoink{
+    min-height: calc(100vh - 150px);
+}
+
+/* binnen-footer */
+
+.innerFooter{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-top: 2px solid yellow;
+    background-color: #343a40;
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/* De copyright tekst aan de bodem van de pagina */
+
+.Copyright{
+    color: white;
+    font-size: 20px;
+}
+
+/* algemene footer-icon dingen */
+
+.fa {
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-instagram {
+     color: white;
+     margin-left: 30%;
+}
+.fa-linkedin {
+     color: white;
+}
+.fa-facebook {
+     color: white;
+}
+.fa-instagram:hover {
+     color: #ccc;
+     text-decoration: none;
+}
+.fa-facebook:hover {
+     color: #ccc;
+     text-decoration: none;
+}
+.fa-linkedin:hover {
+     color: #ccc;
+     text-decoration: none;
+}
+/* De gehele laadbalk */
+
+.laadbalkOG, .Titel{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    background-color: black;
+    background-image: linear-gradient(to left, black, yellow);
+    float: left;
+    min-height: 10px;
+    border: 2px solid #000;
+    padding-right: 20px;
+    
+}
+
+/* Het einde van de progressie-balk */
+
+.laadbalkEinde{
+    min-width: 10%;
+    width: auto;
+    background-color: transparent;
+    height: auto;
+    float: left;
+    min-height: 10px;
+    margin-left: 90%;
+}
+
+/* De titel van de progressie-balk */
+
+.Titel{
+    background: transparent;
+    border: none;
+}
+
+/* Balk 1 */
+
+.laadbalk1{
+    width: 60%;
+}
+.lb1{
+    width: 7%;
+    margin-left: 93%;
+}
+
+/* Balk 2 */
+
+.laadbalk2{
+    width: 40%;
+}
+.lb2{
+    margin-left: 90%;
+}
+
+/* Balk 3 */
+
+.laadbalk3{
+    width: 35%;
+}
+.lb3{
+    margin-left: 90%;
+}
+
+/* Balk 4 */
+
+.laadbalk4{
+    width: 20%;
+}
+.lb4{
+    width: 20%;
+    margin-left: 80%;
+}
+
+/* Balk 5 */
+
+.laadbalk5{
+    width: 35%;
+    margin-bottom: 10px;
+}
+.lb5{
+    margin-left: 90%;
+}
+
+/* het percentage in de progressie-balk */
+
+.percentage {
+     color: white;
+    padding-left: 10%;    
+}
+
+/* 'skills' link in footer */
+
+.skillsFooter{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Hover van de 'skills' link in footer */
+
+.skillsFooter:hover{
+    color:#ccc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* De timer zelf */
+
+#timer{
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Tekst naast de timer */
+
+.BdText{
+    color: white;
+    font-size: 125%;
+}
+
+/* De hele timer */
+
+.CompleetTimer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4));
+    border: 3px yellow solid;
+}
+
+/* The size of the Timer under 576px */
+
+@media(min-width:576px){
+    
+    #timer{
+        font-size: 150%;
+
+}
+.BdText{
+        
+        font-size: 150%;
+    }
+    .skillsFooter{
+        display: none;
+    }
+}
+
+/* The size of the Timer under 768px */
+
+@media(min-width:768px){
+    
+    #timer{
+        font-size: 200%;
+
+    }
+    .BdText{
+        font-size: 200%;
+    } 
+
+}
+
+/* The size of the Timer under 992px */
+
+@media(min-width:992px){
+    #timer{
+        font-size: 250%;
+
+    }
+    .BdText{
+        font-size: 300%;
+    } 
+}
+
+/*The skills link disapears under 767px */
+
+@media(max-width:767px){
+    
+    .skillsFooter{
+        display: none;
+    }
+    .laadbalkOG{
+        padding-right: 30px;
+    }
+}

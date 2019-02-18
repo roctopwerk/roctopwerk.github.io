@@ -1,0 +1,240 @@
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+::selection {
+  background: #333;
+    color: white;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #333;
+    color: white;/* Gecko Browsers */
+}
+body{
+    background-image: url(../Media/pictures/background-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.row2{
+    background: #eaeaea;
+    width: 100%;
+    height: 350px;
+    border: solid 2px yellow;
+}
+.text{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    background: #eaeaea;
+    margin-top: 10px;
+    padding:5px;
+    font-size: 20px;
+    border: solid 2px yellow;
+}
+.foto{
+    width: 100%;
+    height: 350px;
+    background: #333;
+    background-image: url(../Media/pictures/arno-foto-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    border: solid 2px yellow;
+}
+.row{
+    margin-top: 50px;
+}
+.row1{
+    margin-top:110px;
+}
+nav{
+    border-bottom: solid 2px yellow;
+}
+.yoink{
+    min-height: calc(100vh - 35px);
+}
+.innerFooter{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-top: 2px solid yellow;
+    background-color: #343a40;
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.Copyright{
+    color: white;
+    font-size: 20px;
+}
+
+.fa {
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-instagram {
+     color: white;
+     margin-left: 30%;
+}
+.fa-linkedin {
+     color: white;
+}
+.fa-facebook {
+     color: white;
+}
+.fa-instagram:hover {
+     color: #ccc;
+     text-decoration: none;
+}
+.fa-facebook:hover {
+     color: #ccc;
+     text-decoration: none;
+}
+.fa-linkedin:hover {
+     color: #ccc;
+     text-decoration: none;
+}
+.skillsFooter{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5px;
+    color: white;
+}
+.skillsFooter:hover{
+    color:#ccc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.TorF{
+    width: 100%;
+    height:auto;
+    background-color: #ffffff;
+    border: solid 10px black;
+    font-size: 500%;
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+    text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+.Button{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: linear-gradient(to top, yellow, #767600);
+    border: solid 10px black;
+    font-size: 200%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+.Button1{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: linear-gradient(to top, yellow, #767600);
+    border: solid 10px black;
+    font-size: 200%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+.Button1:hover{
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+.Button1:active{
+    filter: brightness(0.7);
+}
+.Button2{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: linear-gradient(to top, yellow, #767600);
+    border: solid 10px black;
+    font-size: 200%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+#button2{
+    background: transparent;
+    border: none;
+    resize: none;
+    text-align: center;
+}
+.Button:hover{
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+.Button:active{
+    filter: brightness(0.7);
+}
+@media(max-width:767px){
+    .skillsFooter{
+        display: none;
+    }
+}
+
+@media(min-width:576px){
+    
+
+.TorF{
+        
+        font-size: 250%;
+    }
+
+}
+
+/* The size of the Timer under 768px */
+
+@media(min-width:768px){
+    
+   .TorF{
+        font-size: 500%;
+
+    }
+}
+
+/* The size of the Timer under 992px */
+
+@media(min-width:992px){
+    .TorF{
+        font-size: 1000%;
+
+    }
+}
