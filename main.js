@@ -822,7 +822,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<iframe width=\"100%\" height=\"300\" [src]=\"item.url | safe\" height=\"100%\" width=\"100%\"></iframe>"
+module.exports = "\r\n<div style=\"margin:0px;padding:0px;overflow:hidden;height:1000px;\">\r\n    <iframe [src]=\"item.url | safe\" frameborder=\"0\" style=\"overflow:hidden;height:100%;width:100%\" height=\"100%\" width=\"100%\"></iframe>\r\n</div>"
 
 /***/ }),
 
